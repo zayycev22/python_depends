@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-pip install python_depends
+pip install depends_python
 ```
 
 ## Key Features
@@ -115,3 +115,4 @@ MIT License.
 
 The **python_depends** library is designed to simplify the dependency injection process and make code cleaner and easier to test.
 
+The name of package is **depends_python** because **python_depends** is already in use

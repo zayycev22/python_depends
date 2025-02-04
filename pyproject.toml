@@ -16,7 +16,7 @@ path = "python_depends/__init__.py"
 packages = ["python_depends/"]
 
 [project]
-name = "python_depends"
+name = "depends_python"
 dynamic = ['version']
 authors = [
     { name = "zayycev22" },
@@ -27,12 +27,6 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-]
-
-dependencies = [
-    "fastapi >= 0.110.0",
-    "pydantic >= 2.6.3",
-    "ordered-set >= 4.1.0"
 ]
 
 
