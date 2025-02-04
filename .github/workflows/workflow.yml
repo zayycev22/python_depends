@@ -1,4 +1,4 @@
-name: Build fastapi_auth
+name: Build python_depends
 
 on: [push, pull_request]
 
