@@ -3,4 +3,4 @@ from python_depends.utils import inject_dependencies
 
 __all__ = ["Depends", "inject_dependencies"]
 
-__version__ = '0.0.0'
+__version__ = '0.0.1'
