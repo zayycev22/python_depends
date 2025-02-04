@@ -42,4 +42,4 @@ readme = "README.md"
 requires-python = ">=3.11"
 
 [project.urls]
-Source = "https://github.com/zayycev22/fastapi-utils"
+Source = "https://github.com/zayycev22/python_depends"
