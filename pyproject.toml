@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling", "hatch-regex-commit"]
+build-backend = "hatchling.build"
+
+[tool.hatch]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.version]
+source = "regex_commit"
+commit_extra_args = ["-e"]
+path = "python_depends/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["python_depends/"]
+
+[project]
+name = "python_depends"
+dynamic = ['version']
+authors = [
+    { name = "zayycev22" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "fastapi >= 0.110.0",
+    "pydantic >= 2.6.3",
+    "ordered-set >= 4.1.0"
+]
+
+
+
+description = "Dependency injection for python functions"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.urls]
+Source = "https://github.com/zayycev22/fastapi-utils"
