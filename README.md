@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-pip install python_depends
+pip install depends_python
 ```
 
 ## Key Features
